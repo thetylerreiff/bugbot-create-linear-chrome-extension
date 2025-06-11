@@ -2,6 +2,9 @@
 
 This Chrome extension automatically detects BugBot comments in GitHub Pull Requests and adds a button to create Linear issues from those comments.
 
+<img width="721" alt="image" src="https://github.com/user-attachments/assets/7bbc1972-f1de-4663-9634-0c0a2f142325" />
+
+
 ## Installation
 
 1. Open Chrome and navigate to `chrome://extensions/`
