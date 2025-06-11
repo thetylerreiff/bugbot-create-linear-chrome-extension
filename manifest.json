@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "BugBot Linear Issue Creator",
+  "version": "1.0.0",
+  "description": "Creates Linear issue links from BugBot comments in GitHub PRs",
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+  "host_permissions": [
+    "https://github.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/*/pull/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
